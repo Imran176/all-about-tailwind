@@ -47,18 +47,107 @@
     </div>
 
     <!-- Span top edge -->
+    <div class="relative w-32 h-32 bg-blue-100">
+      <p>Parent Element</p>
+      <div class="absolute top-0 inset-x-0 h-16 bg-blue-300">
+        <!-- Don't use width on child here becoz it will prevent horizontal inset property -->
+        Absolute/Child Element
+      </div>
+    </div>
 
     <!-- Span left edge -->
+    <div class="relative w-32 h-32 bg-pink-100">
+      <p>Parent Element</p>
+      <div class="absolute left-0 inset-y-0 w-16 bg-pink-300">
+        Absolute/Child Element
+        <!-- Don't use height on child here becoz it will prevent vertical inset property -->
+      </div>
+    </div>
 
     <!-- Span right edge -->
+    <div class="relative w-32 h-32 bg-pink-100">
+      <p>Parent Element</p>
+      <div class="absolute right-0 inset-y-0 w-16 bg-pink-300">
+        Absolute/Child Element
+        <!-- Don't use height on child here becoz it will prevent vertical inset property -->
+      </div>
+    </div>
 
     <!-- Span bottom edge -->
+    <div class="relative w-32 h-32 bg-blue-100">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 inset-x-0 h-16 bg-blue-300">
+        <!-- Don't use width on child here becoz it will prevent horizontal inset property -->
+        Absolute/Child Element
+      </div>
+    </div>
 
     <!-- Display Classes -->
+    <div class="p-4 border">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      <span class="inline font-bold">inline element</span> Repellendus dolorem
+      beatae cum labore minima,
+      <span class="inline-block font-bold">inline-block element</span> quis quam
+      blanditiis adipisci sint fugit reprehenderit!
+      <span class="block font-bold">block element</span> Numquam a inventore
+      voluptatibus enim dolorum minus, modi ullam optio, voluptate doloremque ab
+      nisi similique laborum possimus consequatur cumque cupiditate!
+      <span class="hidden font-bold">hidden element</span> Blanditiis fugit,
+      modi dicta et dolor quo vitae perspiciatis?
+    </div>
 
     <!-- Z-Index -->
+    <div class="relative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-red-200 z-50">1</div>
+      <div class="absolute left-20 w-24 h-24 bg-yellow-300">2</div>
+      <div class="absolute left-40 w-24 h-24 bg-green-400 z-20">3</div>
+      <div class="absolute left-60 w-24 h-24 bg-blue-500 z-10">4</div>
+      <div class="absolute left-80 w-24 h-24 bg-purple-600">5</div>
+    </div>
 
-    <!-- Floats -->
+    <!-- Float right-->
+    <div class="w-2/3">
+      <img
+        class="h-48 w-48 float-right m-4"
+        src="../assets/img/img1.jpg"
+        alt=""
+      />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quod
+        doloribus? Repellendus aliquid officiis aperiam eveniet natus quos fugit
+        error ullam delectus quidem qui numquam impedit necessitatibus, eius
+        quibusdam officia nostrum? Voluptatem error impedit est corporis.
+        Aliquam consequuntur rem alias!
+      </p>
+    </div>
+
+    <!-- Float left-->
+    <div class="w-2/3">
+      <img
+        class="h-48 w-48 float-left m-4"
+        src="../assets/img/img2.jpg"
+        alt=""
+      />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quod
+        doloribus? Repellendus aliquid officiis aperiam eveniet natus quos fugit
+        error ullam delectus quidem qui numquam impedit necessitatibus, eius
+        quibusdam officia nostrum? Voluptatem error impedit est corporis.
+        Aliquam consequuntur rem alias!
+      </p>
+    </div>
+
+    <!-- Float none-->
+    <div class="w-2/3">
+      <img class="h-48 w-48 float-none" src="../assets/img/img3.jpg" alt="" />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quod
+        doloribus? Repellendus aliquid officiis aperiam eveniet natus quos fugit
+        error ullam delectus quidem qui numquam impedit necessitatibus, eius
+        quibusdam officia nostrum? Voluptatem error impedit est corporis.
+        Aliquam consequuntur rem alias!
+      </p>
+    </div>
   </body>
 </html>
 
